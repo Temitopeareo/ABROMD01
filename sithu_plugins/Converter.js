@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                              //                                                                 //                                         𝚅.𝟷.𝟸.𝟽                                                   // 
                          //
-//                                   CREATE BY SITHUM-KALHARA                                              //
+//                                   CREATE BY ABRO-TECH                                              //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -384,7 +384,7 @@ Module_Exports({
             kingcmd: "fancy",
             infocmd: "Makes stylish/fancy given text",
             kingclass: "converter",
-            use: '56 SITHU MD',
+            use: '56 ABRO MD',
             react: "✅",
             kingpath: __filename
         },
@@ -393,7 +393,7 @@ Module_Exports({
                 let text = tiny(
                     `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _i am sithu male_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
                 );
-                listall("SITHU MD").forEach((txt, num) => {
+                listall("ABRO MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
@@ -489,7 +489,7 @@ Module_Exports({
 },
 async(Void, citel,text) => {
 let a = citel.quoted ? citel.quoted.text : citel.text;
-let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=SITHU-MD+Bot&author_name=Sithum_Kalhara&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
+let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=ABRO-MD+Bot&author_name=ABRO_TECH&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
 return citel.reply(`*Paste created on telegraph*\nName:${util.format(data.result.title)} \nUrl: ${util.format(data.result.url)}`)
 }
 );
@@ -513,7 +513,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.erdwpe.com/api/maker/attp?text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -539,7 +539,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/attp?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -565,7 +565,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/attp2?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -591,7 +591,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -617,7 +617,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp2?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -643,7 +643,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp3?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -669,7 +669,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp5?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
@@ -695,7 +695,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp6?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SITHU_MD',author:'SITHU'},"sticker") 
+return citel.reply(a,{packname:'ABRO_MD',author:'ABRO'},"sticker") 
 
 }
 
