@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                              //                                                                 //                                         𝚅.𝟷.𝟸.𝟽                                                   // 
                          //
-//                                   CREATE BY ABRO-TECH                                              //
+//                                   CREATE BY SITHUM-KALHARA                                              //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -101,15 +101,15 @@ Module_Exports({
 },
 async(Void, citel) => {
     await Void.sendPresenceUpdate('recording', citel.chat);
-        await Void.sendMessage(citel.chat, { audio: {url : '',}, mimetype: 'audio/mpeg', ptt: true }, { quoted: citel, });
-        let { data } = await axios.get('https://api.github.com/repos/Temitopeareo/ABROMD01')
+        await Void.sendMessage(citel.chat, { audio: {url : 'https://github.com/Sithuwa/Voice/raw/main/Audio/Repo.mp3',}, mimetype: 'audio/mpeg', ptt: true }, { quoted: citel, });
+        let { data } = await axios.get('https://api.github.com/repos/Sithuwa/SITHU-MD')
         let cap = `👋Hey ${citel.pushName}\n
 *☀️ 𝐓𝐨𝐭𝐚𝐥 𝐒𝐭𝐚𝐫𝐬:* ${data.stargazers_count} stars
 *🎯 𝐅𝐨𝐫𝐤𝐬:* ${data.forks_count} forks
-*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Temitopeareo/ABROMD1
-*🪀 Support Grp:* COMING SOON...
-*🪀 Public grp:* COMING SOON...
-*📌 Youtube tt:* COMING SOON`
+*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Sithuwa/SITHU-MD
+*🪀 Support Grp:* https://chat.whatsapp.com/H0FUK41cUp8D2Up9BGI8Ji
+*🪀 Public grp:* https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi
+*📌 Youtube tt:* https://www.youtube.com/channel/UCVwddJDhIDa4FaWM717xaAQ`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -117,7 +117,7 @@ async(Void, citel) => {
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Abro-Repo",
+                    title: "Sithu-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -151,7 +151,7 @@ async(sithu, person) => {
 ┃⛦ *_•ᴜᴘ-ᴛɪᴍᴇ•_* ${runtime(process.uptime())}
 ┃⛦ *_•sᴘᴇᴇᴅ•_* ${latensie.toFixed(4)} ᴍs 
 ┃⛦ *_•ᴠᴇʀsɪᴏɴ•_* ${name.VERSION} 
-┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_ABRO MD_*
+┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_sɪᴛʜᴜ-ᴍᴅ_*
 ┗━━━━━━━━━━⦿
 `;
   let buttonMessaged = {
