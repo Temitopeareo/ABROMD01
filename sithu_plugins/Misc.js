@@ -25,7 +25,7 @@ Module_Exports({
                      {
                          if (chatbott.worktype == "true") return citel.reply("*_SITHU Chatbot is Already Enabled_*")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
-                         return await citel.reply('*_SITHU Chatbot Activated successfully._*')   
+                         return await citel.reply('*_ABRO Chatbot Activated successfully._*')   
                      }
                      break
                  case "off":
