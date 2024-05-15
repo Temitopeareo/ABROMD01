@@ -85,7 +85,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
                 let buttonMessaged = 
                 {
                      text:" 🪀 *Updating Your Bot...!*\n  *★────────────────────────★*\n"+update +"\n  *★────────────────────────★*",
-                     footer: 'UPDATER --- ꜱɪᴛʜᴜᴍ ᴋᴀʟʜᴀʀᴀ \n www.youtube.com/c/SITHUWA-MD',
+                     footer: 'UPDATER --- ABRO TECH',
                      headerType: 4,
                 };
                 await Void.sendMessage(citel.chat, buttonMessaged);
