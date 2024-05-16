@@ -22,7 +22,7 @@ global.Gname = process.env.GNAME ||"ABRO MD",
 global.zyt = process.env.ZYT || '',
 global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/GU73HsSG2kXCd8EN9xQtiF",
 global.website = 'https://github.com/Temitopeareo/ABROMD01' ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://imgur/7doiWDc.jpg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://imgur.com/7doiWDc.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || '',      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'ABRO-MD',  // add the botname you want
