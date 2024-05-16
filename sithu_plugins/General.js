@@ -106,10 +106,10 @@ async(Void, citel) => {
         let cap = `👋Hey ${citel.pushName}\n
 *☀️ 𝐓𝐨𝐭𝐚𝐥 𝐒𝐭𝐚𝐫𝐬:* ${data.stargazers_count} stars
 *🎯 𝐅𝐨𝐫𝐤𝐬:* ${data.forks_count} forks
-*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Sithuwa/SITHU-MD
-*🪀 Support Grp:* https://chat.whatsapp.com/H0FUK41cUp8D2Up9BGI8Ji
-*🪀 Public grp:* https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi
-*📌 Youtube tt:* https://www.youtube.com/channel/UCVwddJDhIDa4FaWM717xaAQ`
+*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Temitopeareo/ABROMD01
+*🪀 Support Grp:* SOON...
+*🪀 Public grp:* SOON...
+*📌 Youtube tt:* SOON...`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -117,7 +117,7 @@ async(Void, citel) => {
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Sithu-Repo",
+                    title: "Abro-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -151,7 +151,7 @@ async(sithu, person) => {
 ┃⛦ *_•ᴜᴘ-ᴛɪᴍᴇ•_* ${runtime(process.uptime())}
 ┃⛦ *_•sᴘᴇᴇᴅ•_* ${latensie.toFixed(4)} ᴍs 
 ┃⛦ *_•ᴠᴇʀsɪᴏɴ•_* ${name.VERSION} 
-┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_sɪᴛʜᴜ-ᴍᴅ_*
+┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_ABRO-MD_*
 ┗━━━━━━━━━━⦿
 `;
   let buttonMessaged = {
